@@ -1,5 +1,5 @@
 const ville = "Abidjan";
-const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=5.3600&longitude=-4.0083&hourly=temperature_2m`;
+const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=5.3600&longitude=-4.0083&hourly=temperature_2m`; // ce lien a été gébéré par l'ia
 
 fetch(apiUrl)
   .then(response => {
